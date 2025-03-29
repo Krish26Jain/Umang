@@ -31,10 +31,11 @@ body
 }
 .media span{
   color: white;
-  font-size: 15px;
+  font-size: 10px;
   position: absolute;
   left:60vw;
   top:10px;
+  
 }
 .logo{
   background-color: rgba(255, 0, 0, 0.689);
@@ -200,3 +201,37 @@ text-decoration: underline;
   
   }
 }
+
+
+.ids {
+  height: 20px;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+
+.media span {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 10px;
+  animation: scrollText 10s linear infinite;
+}
+
+.ids {
+  height: 20px;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+
+.media span {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 10px;
+  animation: scrollText 10s linear infinite;
+}
+
