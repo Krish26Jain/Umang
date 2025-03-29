@@ -1,0 +1,79 @@
+* {
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+.manifesto {
+  position: relative;
+  top: 50px;
+  min-height: auto;
+  padding-bottom: 20px;
+}
+
+.manifesto h1 {
+  font-family: serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.manifesto h2 {
+  margin-top: 20px;
+}
+
+.manifesto ul {
+  margin: 10px 20px;
+  padding-left: 20px;
+  list-style-type: disc; /* Adds bullet points */
+}
+
+.manifesto li {
+  margin-bottom: 10px;
+}
+
+.manifesto p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.form {
+  position: relative;
+  text-align: center;
+  margin-top: 30px; /* Added spacing */
+  padding: 10px;
+}
+
+.form a {
+  font-size: large;
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.form a:hover {
+  background-color: darkred;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .manifesto {
+    top: 20px;
+    padding: 10px;
+  }
+
+  .form {
+    margin-top: 50px;
+    padding: 10px;
+  }
+}
